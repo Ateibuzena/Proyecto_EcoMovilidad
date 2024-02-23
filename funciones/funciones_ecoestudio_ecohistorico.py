@@ -614,7 +614,7 @@ def predicion_gasolina(input_usuario_precio_gasolina_semana_corriente):
     #cargar el df con el registro de la evolucion de precios
     df = pd.read_csv("Data/Precios_Gasolina_y_Precios_Gasoleo.csv")
     #cargar el pickle con el modelo entrenado
-    with open(r'C:\Users\enaat\Documents\Repositorios\Proyecto_ecomovilidad\Data\model_gasolina_pkl.pkl', 'rb') as file:
+    with open(r'proyecto_ecomovilidad/Data/model_gasolina_pkl.pkl', 'rb') as file:
         modelo_pkl = pickle.load(file)
     #nos quedamos con las ultimas 9 instancias del modelo
     instancia = df["Precio Gasolina"][-10: -1].to_list()
@@ -632,7 +632,7 @@ def predicion_gasoleo(input_usuario_precio_gasoleo_semana_corriente):
     #cargar el df con el registro de la evolucion de precios
     df = pd.read_csv("Data/Precios_Gasolina_y_Precios_Gasoleo.csv")
     #cargar el pickle con el modelo entrenado
-    with open(r'C:\Users\enaat\Documents\Repositorios\Proyecto_ecomovilidad\Data\model_gasoleo_pkl.pkl', 'rb') as file:
+    with open(r'proyecto_ecomovilidad/Data/model_gasoleo_pkl.pkl', 'rb') as file:
         modelo_pkl = pickle.load(file)
     #nos quedamos con las ultimas 9 instancias del modelo
     instancia = df["Precio Gasoleo"][-10: -1].to_list()
@@ -651,7 +651,7 @@ def predicion_gasoleo(input_usuario_precio_gasoleo_semana_corriente):
 def predicion_gasolina_semanas(input_usuario_precio_gasolina_semana_corriente, num_semanas):
     #cargamos el df con precios y el modelo pkl  
     df = pd.read_csv("Data/Precios_Gasolina_y_Precios_Gasoleo.csv")
-    with open(r'C:\Users\enaat\Documents\Repositorios\Proyecto_ecomovilidad\Data\model_gasolina_pkl.pkl', 'rb') as file:
+    with open(r'proyecto_ecomovilidad/Data/model_gasolina_pkl.pkl', 'rb') as file:
         modelo_pkl = pickle.load(file)
     #recorremos un bucle para predecir la primera instancia, agregar esta a una nueva lista y continuar prediciendo en función de las semanas indicadas.    
     for n in range(num_semanas):
@@ -681,7 +681,7 @@ def predicion_gasoleo_semanas(input_usuario_precio_gasoleo_semana_corriente, num
     st.write("Directorio actual:", os.getcwd())
     #cargamos el df con precios y el modelo pkl  
     df = pd.read_csv("Data/Precios_Gasolina_y_Precios_Gasoleo.csv")
-    with open(r'C:\Users\enaat\Documents\Repositorios\Proyecto_ecomovilidad\Data\model_gasoleo_pkl.pkl', 'rb') as file:
+    with open(r'proyecto_ecomovilidad/Data/model_gasoleo_pkl.pkl', 'rb') as file:
         modelo_pkl = pickle.load(file)
     #recorremos un bucle para predecir la primera instancia, agregar esta a una nueva lista y continuar prediciendo en función de las semanas indicadas.    
     for n in range(num_semanas):
