@@ -677,8 +677,7 @@ def predicion_gasolina_semanas(input_usuario_precio_gasolina_semana_corriente, n
 
 
 def predicion_gasoleo_semanas(input_usuario_precio_gasoleo_semana_corriente, num_semanas):
-    import os
-    st.write("Directorio actual:", os.getcwd())
+    
     #cargamos el df con precios y el modelo pkl  
     df = pd.read_csv("Data/Precios_Gasolina_y_Precios_Gasoleo.csv")
     with open(r'Data/model_gasoleo_pkl.pkl', 'rb') as file:
