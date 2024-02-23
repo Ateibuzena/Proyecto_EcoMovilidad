@@ -911,6 +911,28 @@ def funcion_line_precio(choice):
     # Muestra el gráfico
     st.plotly_chart(fig, use_container_width=True)
 
+def ultima_funcion():
+    df_filtrado = df_coches[(df_coches["G"] == 1) | (df_coches["Sin clasificacion"] == 1)][["Emisiones Mínimo", "Emisiones Máximo", "Motorización", "G", "Sin clasificacion"]].copy()
+    df_filtrado['Clasificación Energética'] = np.where(df_filtrado['G'] == 1, 'G', 'Sin clasificacion')
+    df_filtrado['Clasificación Energética'] = np.where(df_filtrado['Sin clasificacion'] == 1, 'Sin clasificacion', df_filtrado['Clasificación Energética'])
+    fig = px.scatter(data_frame  = df_filtrado,
+            x           = "Emisiones Mínimo",
+            y           = "Emisiones Máximo",
+            hover_name  = "Motorización",
+            color       = "Clasificación Energética"
+            )
+    
+    fig.update_layout(
+                        legend=dict(
+                                    x=0.75,
+                                    y=0.08,
+                                    bgcolor='rgba(255, 255, 255, 0)',
+                                    bordercolor='rgba(0, 0, 0, 0)',
+                                    borderwidth=1)
+                        )
+    
+    st.plotly_chart(fig,use_container_width = True )
+
 
 #FIN PREDICCIONES
 #___________________________________________________________________________________________________

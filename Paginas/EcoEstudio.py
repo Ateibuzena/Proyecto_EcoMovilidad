@@ -125,30 +125,32 @@ def EcoEstudio():
             funciones_ecoestudio_ecohistorico.funcion_etiqueta_g_sin_especificar()
         
         with c_3:
-            import pandas as pd
-            import plotly.express as px
-            import numpy as np
-            df_coches = pd.read_csv("data/df_coches_escrapeo.csv")
-            df_filtrado = df_coches[(df_coches["G"] == 1) | (df_coches["Sin clasificacion"] == 1)][["Emisiones Mínimo", "Emisiones Máximo", "Motorización", "G", "Sin clasificacion"]].copy()
-            df_filtrado['Clasificación Energética'] = np.where(df_filtrado['G'] == 1, 'G', 'Sin clasificacion')
-            df_filtrado['Clasificación Energética'] = np.where(df_filtrado['Sin clasificacion'] == 1, 'Sin clasificacion', df_filtrado['Clasificación Energética'])
-            fig = px.scatter(data_frame  = df_filtrado,
-                    x           = "Emisiones Mínimo",
-                    y           = "Emisiones Máximo",
-                    hover_name  = "Motorización",
-                    color       = "Clasificación Energética"
-                    )
             
-            fig.update_layout(
-                                legend=dict(
-                                            x=0.75,
-                                            y=0.08,
-                                            bgcolor='rgba(255, 255, 255, 0)',
-                                            bordercolor='rgba(0, 0, 0, 0)',
-                                            borderwidth=1)
-                                )
+            funciones_ecoestudio_ecohistorico.ultima_funcion()
+            # import pandas as pd
+            # import plotly.express as px
+            # import numpy as np
+            # df_coches = pd.read_csv("Data/df_coches_escrapeo.csv")
+            # df_filtrado = df_coches[(df_coches["G"] == 1) | (df_coches["Sin clasificacion"] == 1)][["Emisiones Mínimo", "Emisiones Máximo", "Motorización", "G", "Sin clasificacion"]].copy()
+            # df_filtrado['Clasificación Energética'] = np.where(df_filtrado['G'] == 1, 'G', 'Sin clasificacion')
+            # df_filtrado['Clasificación Energética'] = np.where(df_filtrado['Sin clasificacion'] == 1, 'Sin clasificacion', df_filtrado['Clasificación Energética'])
+            # fig = px.scatter(data_frame  = df_filtrado,
+            #         x           = "Emisiones Mínimo",
+            #         y           = "Emisiones Máximo",
+            #         hover_name  = "Motorización",
+            #         color       = "Clasificación Energética"
+            #         )
             
-            st.plotly_chart(fig,use_container_width = True )
+            # fig.update_layout(
+            #                     legend=dict(
+            #                                 x=0.75,
+            #                                 y=0.08,
+            #                                 bgcolor='rgba(255, 255, 255, 0)',
+            #                                 bordercolor='rgba(0, 0, 0, 0)',
+            #                                 borderwidth=1)
+            #                     )
+            
+            # st.plotly_chart(fig,use_container_width = True )
 
         texto = """
                     <div style='text-align: justify;font-size:18px'>
