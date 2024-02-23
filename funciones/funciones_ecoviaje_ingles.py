@@ -2,7 +2,6 @@ import pandas as pd
 import streamlit as st
 
 import re
-import pickle
 import numpy as np
 # Visualizaciones
 
@@ -15,6 +14,7 @@ from geopy.distance import geodesic
 from geopy.geocoders import Nominatim
 from PIL import Image
 
+from tensorflow.keras.models import load_model
 
 
 #Importar archivos relevantes
@@ -744,8 +744,7 @@ def funcion_precio_viaje_e(Model, km ,seleccion_usuario_punto_recarga):
 def predicion_gasolina(input_usuario_precio_gasolina_semana_corriente):
     
     df = pd.read_csv("./Data/Precios_Gasolina_y_Precios_Gasoleo.csv")
-    with open('./Data/model_gasolina_pkl.pkl', 'rb') as file:
-        modelo_pkl = pickle.load(file)
+    modelo_pkl = load_model('./Data/model_gasolina')
 
     instancia = df["Precio Gasolina"][-10: -1].to_list()
     instancia.append(input_usuario_precio_gasolina_semana_corriente)
@@ -760,8 +759,7 @@ def predicion_gasolina(input_usuario_precio_gasolina_semana_corriente):
 def predicion_gasoleo(input_usuario_precio_gasoleo_semana_corriente):
     
     df = pd.read_csv("./Data/Precios_Gasolina_y_Precios_Gasoleo.csv")
-    with open('./Data/model_gasoleo_pkl.pkl', 'rb') as file:
-        modelo_pkl = pickle.load(file)
+    modelo_pkl = load_model('./Data/model_gasoleo')
 
     instancia = df["Precio Gasoleo"][-10: -1].to_list()
     instancia.append(input_usuario_precio_gasoleo_semana_corriente)
