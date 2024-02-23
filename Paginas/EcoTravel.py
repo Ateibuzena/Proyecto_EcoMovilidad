@@ -322,7 +322,8 @@ def pagina_ecoviaje_ingles():
                     precios_viajes, precio_parte_electrico, diccionario, resultado_gasolina, predic= predicePrecio(modelo_hibrido, input_km_usuario, indice_cargador, input_usuario_gasolina = input_precio_gasolina, input_usuario_gasoleo = input_precio_gasoleo)
                     viaje_gasolina, prediccion_gasolina = predicePrecio(modelo_gasolina, input_km_usuario, indice_cargador, input_usuario_gasolina = input_precio_gasolina, input_usuario_gasoleo = input_precio_gasoleo)
                     viaje_gasoleo, prediccion_gasoleo = predicePrecio(modelo_gasoleo, input_km_usuario, indice_cargador, input_usuario_gasolina = input_precio_gasolina, input_usuario_gasoleo = input_precio_gasoleo)
-                    try:
+                    
+                    if resultado_electrico != []:
 
                         if len(resultado_electrico) == 3:
                             data_hibrido = {"Vehicle": [modelo_hibrido, modelo_hibrido, modelo_hibrido],
@@ -446,28 +447,25 @@ def pagina_ecoviaje_ingles():
                             df_gasoleo = pd.DataFrame(data_gasoleo)
 
 
+                        texto = """<div style=' text-align: justify; font-size: 18px;'>
+                                    Analyze the results and compare! Below we show you the results of calculating the price of your trip
+                                    Depending on the characteristics of the vehicles you chose, the price per kW/h and the price of fuel.</div>"""
 
-                        if df_electrico is not None and df_hibrido is not None and df_gasolina is not None and df_gasoleo is not None:
-                            texto = """<div style=' text-align: justify; font-size: 18px;'>
-                                        Analyze the results and compare! Below we show you the results of calculating the price of your trip
-                                        Depending on the characteristics of the vehicles you chose, the price per kW/h and the price of fuel.</div>"""
-
-                            st.markdown(texto, unsafe_allow_html=True)
-                            columna_1, columna_2 = st.columns(2)
-                            altura = 100
-                            with columna_1:
-                                st.markdown("")
-                                st.dataframe(df_electrico, use_container_width=True, height=altura, hide_index=True)
-                                st.markdown("")
-                                st.dataframe(df_hibrido, use_container_width=True, height=altura, hide_index = True)
-                            with columna_2:
-                                st.markdown("")
-                                st.dataframe(df_gasolina, use_container_width=True, height=altura, hide_index=True)
-                                st.markdown("")
-                                st.dataframe(df_gasoleo, use_container_width=True, height=altura, hide_index=True)
-                        else:
-                            st.write("Select a charging point where the price per kW/h is not unknown or free.")       
-                    except:
+                        st.markdown(texto, unsafe_allow_html=True)
+                        columna_1, columna_2 = st.columns(2)
+                        altura = 100
+                        with columna_1:
+                            st.markdown("")
+                            st.dataframe(df_electrico, use_container_width=True, height=altura, hide_index=True)
+                            st.markdown("")
+                            st.dataframe(df_hibrido, use_container_width=True, height=altura, hide_index = True)
+                        with columna_2:
+                            st.markdown("")
+                            st.dataframe(df_gasolina, use_container_width=True, height=altura, hide_index=True)
+                            st.markdown("")
+                            st.dataframe(df_gasoleo, use_container_width=True, height=altura, hide_index=True)
+                        
+                    else:
                             st.write("Select a charging point where the price per kW/h is not unknown or free.") 
                 else:
                     st.error("Enter a combustible price, minimun one")
