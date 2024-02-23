@@ -8,8 +8,6 @@ import plotly.express as px
 import plotly.subplots as sp
 import plotly.graph_objects as go
 
-import seaborn as sns
-
 
 
 #Importar archivos relevantes
