@@ -12,8 +12,6 @@ from archivos_py.EcoHome import *
 from archivos_py.EcoFaqs_English import *
 from archivos_py.EcoQuiz import *
 
-from streamlit_extras import buy_me_a_coffee
-
 
 st.set_page_config(layout = "wide")
 
