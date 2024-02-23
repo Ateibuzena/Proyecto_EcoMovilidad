@@ -58,11 +58,9 @@ def pagina_ecoencuesta_ingles():
                     st.balloons()
                 elif respuestas_correctas < 4:
                     st.error("¡You need to improve your environmental awareness.!")
-                    contador = 0
-                    while contador < 5:
-                        bombardeo()
-                        bombardeo()
-                        contador += 1
+                    
+                    bombardeo()
+                    bombardeo()
 
                 # Mostrar respuestas correctas
                 st.write("Correct answers:")
@@ -76,11 +74,11 @@ def pagina_ecoencuesta_ingles():
     columna1, columna2 = st.columns(2)
 
     with columna1:
-        st.video("https://www.youtube.com/watch?v=Sb-_VAd4RJo")
+        st.video("https://youtu.be/igFz9kAedr0?si=lt0babA_scBmtX6Z")
 
     with columna2:
         st.markdown("")
         st.markdown("")
         st.markdown("")
         
-        st.image("https://media.realinstitutoelcano.org/wp-content/uploads/2016/05/ari36-2016-perez-ods-onu-1.jpg", caption="Agenda 2030 de Desarrollo Sostenible", use_column_width=True) 
+        st.image("https://commission.europa.eu/sites/default/files/styles/oe_theme_medium_no_crop/public/2020-11/sdg-goals.png?itok=8KRF-kZW", caption="2030 Agenda for Sustainable Development", use_column_width=True) 

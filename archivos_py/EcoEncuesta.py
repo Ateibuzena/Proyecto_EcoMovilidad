@@ -58,11 +58,9 @@ def pagina_ecoencuesta():
                         sleep(0.5)
                 elif respuestas_correctas < 4:
                     st.error("¡Casi! ¡La próxima vez lo harás mejor!")
-                    contador = 0
-                    while contador < 5:
-                        bombardeo()
-                        bombardeo()
-                        contador += 1
+                    
+                    bombardeo()
+                    bombardeo()
 
                 # Mostrar respuestas correctas
                 st.write("Respuestas correctas:")
