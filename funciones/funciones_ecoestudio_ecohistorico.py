@@ -2,7 +2,6 @@ import pandas as pd
 import streamlit as st
 
 import numpy as np
-import pickle
 # Visualizaciones
 import plotly.express as px
 import plotly.subplots as sp

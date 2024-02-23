@@ -2,7 +2,6 @@ import pandas as pd
 import streamlit as st
 
 import numpy as np
-import pickle
 # Visualizaciones
 import plotly.express as px
 import plotly.subplots as sp
@@ -10,6 +9,7 @@ import plotly.graph_objects as go
 
 
 from tensorflow.keras.models import load_model
+
 #Importar archivos relevantes
 
 df_coches = pd.read_csv("Data/df_coches_escrapeo_ingles.csv")
