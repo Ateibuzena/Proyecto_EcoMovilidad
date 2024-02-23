@@ -27,7 +27,7 @@ def cabecera_maria():
         st.markdown("")
         st.markdown("")
        
-        foto_maria = Image.open(r".\images\foto_maria.png")
+        foto_maria = Image.open(r"./images/foto_maria.png")
         st.image(foto_maria, width=300)
 
     with columna_2:
@@ -50,7 +50,7 @@ def cabecera_maria():
             # Botón de descarga
             st.download_button(use_container_width=True,
                             label="Descargar CV",
-                            data=open(r".\images\cv_maria.pdf", "rb").read(),
+                            data=open(r"./images/cv_maria.pdf", "rb").read(),
                             file_name="maria_cv.pdf",
                             key="descargar_cv_maria")
             
@@ -84,7 +84,7 @@ def cabecera_maria_ingles():
         st.markdown("")
         st.markdown("")
        
-        foto_maria = Image.open(r".\images\foto_maria.png")
+        foto_maria = Image.open(r"./images/foto_maria.png")
         st.image(foto_maria, width=300)
 
     with columna_2:
@@ -107,7 +107,7 @@ def cabecera_maria_ingles():
             # Botón de descarga
             st.download_button(use_container_width=True,
                             label="Download CV",
-                            data=open(r".\images\cv_maria.pdf", "rb").read(),
+                            data=open(r"./images/cv_maria.pdf", "rb").read(),
                             file_name="maria_cv.pdf",
                             key="descargar_cv_maria")
             
@@ -140,7 +140,7 @@ def cabecera_kevin():
         st.markdown("")
         st.markdown("")
     
-        foto_kevin = Image.open(r".\images\foto_kevin.png")
+        foto_kevin = Image.open(r"./images/foto_kevin.png")
         st.image(foto_kevin, width=300)
 
     with columna_2:
@@ -163,7 +163,7 @@ def cabecera_kevin():
             # Botón de descarga
             st.download_button(use_container_width=True,
                         label="Descargar CV",
-                        data=open(r".\images\CV_Kevin_Espinoza.pdf", "rb").read(),
+                        data=open(r"./images/CV_Kevin_Espinoza.pdf", "rb").read(),
                         file_name="kevin_cv.pdf",
                         key="descargar_cv_kevin")
             
@@ -196,7 +196,7 @@ def cabecera_kevin_ingles():
         st.markdown("")
         st.markdown("")
     
-        foto_kevin = Image.open(r".\images\foto_kevin.png")
+        foto_kevin = Image.open(r"./images/foto_kevin.png")
         st.image(foto_kevin, width=300)
 
     with columna_2:
@@ -219,7 +219,7 @@ def cabecera_kevin_ingles():
             # Botón de descarga
             st.download_button(use_container_width=True,
                         label="Download CV",
-                        data=open(r".\images\CV_Kevin_Espinoza.pdf", "rb").read(),
+                        data=open(r"./images/CV_Kevin_Espinoza.pdf", "rb").read(),
                         file_name="kevin_cv.pdf",
                         key="descargar_cv_kevin")
             
@@ -252,7 +252,7 @@ def cabecera_lorena():
         st.markdown("")
         st.markdown("")
     
-        foto_lorena = Image.open(r".\images\foto_lorena.png")
+        foto_lorena = Image.open(r"./images/foto_lorena.png")
         st.image(foto_lorena, width=300)
 
     with columna_2:
@@ -275,7 +275,7 @@ def cabecera_lorena():
 
             st.download_button(use_container_width=True,
                         label="Descargar CV",
-                        data = open(r".\images\cv_lorena.pdf", "rb").read(),
+                        data = open(r"./images/cv_lorena.pdf", "rb").read(),
                         file_name="lorena_cv.pdf",
                         key="descargar_cv_lorena")
             st.markdown("")
@@ -307,7 +307,7 @@ def cabecera_lorena_ingles():
         st.markdown("")
         st.markdown("")
     
-        foto_lorena = Image.open(r".\images\foto_lorena.png")
+        foto_lorena = Image.open(r"./images/foto_lorena.png")
         st.image(foto_lorena, width=300)
 
     with columna_2:
@@ -330,7 +330,7 @@ def cabecera_lorena_ingles():
 
             st.download_button(use_container_width=True,
                         label="Download CV",
-                        data = open(r".\images\cv_lorena.pdf", "rb").read(),
+                        data = open(r"./images/cv_lorena.pdf", "rb").read(),
                         file_name="lorena_cv.pdf",
                         key="descargar_cv_lorena")
             st.markdown("")
@@ -362,7 +362,7 @@ def cabecera_dani():
         st.markdown("")
         st.markdown("")
     
-        foto_dani = Image.open(r".\images\foto_dani.png")
+        foto_dani = Image.open(r"./images/foto_dani.png")
         st.image(foto_dani, width=300)
 
     with columna_2:
@@ -384,7 +384,7 @@ def cabecera_dani():
         # Botón de descarga
             st.download_button(use_container_width=True,
                             label="Descargar CV",
-                            data=open(r".\images\cv_dani.pdf", "rb").read(),
+                            data=open(r"./images/cv_dani.pdf", "rb").read(),
                             file_name="dani_cv.pdf",
                             key="descargar_cv_dani")
             st.markdown("")
@@ -416,7 +416,7 @@ def cabecera_dani_ingles():
         st.markdown("")
         st.markdown("")
     
-        foto_dani = Image.open(r".\images\foto_dani.png")
+        foto_dani = Image.open(r"./images/foto_dani.png")
         st.image(foto_dani, width=300)
 
     with columna_2:
@@ -438,7 +438,7 @@ def cabecera_dani_ingles():
         # Botón de descarga
             st.download_button(use_container_width=True,
                             label="Download CV",
-                            data=open(r".\images\cv_dani.pdf", "rb").read(),
+                            data=open(r"./images/cv_dani.pdf", "rb").read(),
                             file_name="dani_cv.pdf",
                             key="descargar_cv_dani")
             st.markdown("")
@@ -470,7 +470,7 @@ def cabecera_ana():
         st.markdown("")
         st.markdown("")
     
-        foto_ana = Image.open(r".\images\foto_ana.png")
+        foto_ana = Image.open(r"./images/foto_ana.png")
         st.image(foto_ana, width=300)
 
     with columna_2:
@@ -492,7 +492,7 @@ def cabecera_ana():
         # Botón de descarga
             st.download_button(use_container_width=True,
                         label="Descargar CV",
-                        data=open(r".\images\cv_ana.pdf", "rb").read(),
+                        data=open(r"./images/cv_ana.pdf", "rb").read(),
                         file_name="cv_ana.pdf",
                         key="descargar_cv_ana") 
             st.markdown("")
@@ -522,7 +522,7 @@ def cabecera_ana_ingles():
         st.markdown("")
         st.markdown("")
     
-        foto_ana = Image.open(r".\images\foto_ana.png")
+        foto_ana = Image.open(r"./images/foto_ana.png")
         st.image(foto_ana, width=300)
 
     with columna_2:
@@ -544,7 +544,7 @@ def cabecera_ana_ingles():
         # Botón de descarga
             st.download_button(use_container_width=True,
                         label="Download CV",
-                        data=open(r".\images\cv_ana.pdf", "rb").read(),
+                        data=open(r"./images/cv_ana.pdf", "rb").read(),
                         file_name="cv_ana.pdf",
                         key="descargar_cv_ana") 
             st.markdown("")
