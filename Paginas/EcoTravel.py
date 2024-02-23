@@ -380,7 +380,7 @@ def pagina_ecoviaje_ingles():
 
 
                             data_electrico = {"Vehicle": [modelo_electrico_puro, modelo_electrico_puro], 
-                                            "Engine Type": [df_coches[df_coches["Model"] == modelo_electrico_puro]["Engine Type"].values, df_coches[df_coches["Modelo"] == modelo_electrico_puro]["Engine Type"].values],
+                                            "Engine Type": [df_coches[df_coches["Model"] == modelo_electrico_puro]["Engine Type"].values, df_coches[df_coches["Model"] == modelo_electrico_puro]["Engine Type"].values],
                                             "Distance km": [input_km_usuario, input_km_usuario], 
                                             "Total tour price €" : [resultado_electrico[0], resultado_electrico[1]],
                                             "kW/h price": [diccionario[0], diccionario[1]]}
