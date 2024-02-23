@@ -1,8 +1,18 @@
 import streamlit as st
 from funciones.funciones_ecoencuesta_ingles import mostrar_encuesta_ingles
+from time import sleep
+from streamlit_extras.let_it_rain import rain
 
 
 def pagina_ecoencuesta_ingles():
+
+    def bombardeo():
+        rain(
+            emoji="💩",
+            font_size=100,
+            falling_speed=1,
+            animation_length="finite",
+        )
         
         # Añadir un video desde una URL de YouTube
     col1, col2=st.columns([0.8, 1])
@@ -46,8 +56,13 @@ def pagina_ecoencuesta_ingles():
                     st.balloons()
                     st.balloons()
                     st.balloons()
-                elif respuestas_correctas < 3:
+                elif respuestas_correctas < 4:
                     st.error("¡You need to improve your environmental awareness.!")
+                    contador = 0
+                    while contador < 5:
+                        bombardeo()
+                        bombardeo()
+                        contador += 1
 
                 # Mostrar respuestas correctas
                 st.write("Correct answers:")
