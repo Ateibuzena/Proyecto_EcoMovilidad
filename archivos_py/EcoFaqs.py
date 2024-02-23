@@ -20,7 +20,7 @@ def pagina_ecofaqs():
 
 
         
-        with st.expander("En la actualidad, ¿hay más vehículos eléctricos o de combustible?"):
+        with st.expander("**En la actualidad, ¿hay más vehículos eléctricos o de combustible?**"):
             st.write("En España, la adopción de vehículos eléctricos ha estado aumentando en los últimos años, aunque aún representan una pequeña parte del total de vehículos en circulación. Sin embargo, los vehículos de combustible convencionales siguen siendo predominantes en España, con una gran mayoría de vehículos impulsados por gasolina y gasóleo en las carreteras del país.")
             fig = px.bar(
             x=df_coches["Motorización"].value_counts().index,  
@@ -36,7 +36,7 @@ def pagina_ecofaqs():
             st.write("Puede consultarlo en el manual de su vehículo.")
         st.markdown("")
 
-        with st.expander("¿Los cálculos tienen en cuenta otros factores como el tráfico o la eficiencia del vehículo?"):
+        with st.expander("**¿Los cálculos tienen en cuenta otros factores como el tráfico o la eficiencia del vehículo?**"):
             st.write("Los cálculos obtenidos son estimaciones que se basan en el consumo promedio de combustible o energía de su vehículo y las predicciones de precio en base a los precios actuales del combustible o la electricidad. Además, tienen en cuenta otros factores o características del vehículo como es la autonomía del vehículo o la capacidad de la batería, pero no tiene en cuenta ningún factor externo como es el tráfico o las condiciones climáticas.")
         st.markdown("")
 

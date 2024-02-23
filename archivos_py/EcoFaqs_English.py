@@ -20,7 +20,7 @@ def pagina_ecofaqs_ingles():
             
             
             
-        with st.expander("Currently, are there more electric vehicles or fuel vehicles?"):
+        with st.expander("**Currently, are there more electric vehicles or fuel vehicles?**"):
             st.write("In Spain, the adoption of electric vehicles has been increasing in recent years, although they still represent a small portion of the total vehicles in circulation. However, conventional fuel vehicles remain predominant in Spain, with a large majority of vehicles powered by gasoline and diesel on the country's roads.")
                 
             fig = px.bar(
@@ -37,7 +37,7 @@ def pagina_ecofaqs_ingles():
             st.write("You can find it in your vehicle's manual.")
             st.markdown("")
 
-        with st.expander("Do the calculations take into account other factors such as traffic or vehicle efficiency?"):
+        with st.expander("**Do the calculations take into account other factors such as traffic or vehicle efficiency?**"):
             st.write("The calculations obtained are estimates based on the average fuel or energy consumption of your vehicle and price predictions based on current fuel or electricity prices. Additionally, they take into account other factors or vehicle characteristics such as vehicle range or battery capacity, but do not consider any external factors such as traffic or weather conditions.")
             st.markdown("")
             
