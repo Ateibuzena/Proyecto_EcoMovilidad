@@ -757,7 +757,7 @@ def funcion_crear_df_predicciones(input_usuario_precio_gasoleo_semana_corriente=
 
 def funcion_agregado_prediccion(input_usuario_precio_gasoleo_semana_corriente = None, input_usuario_precio_gasolina_semana_corriente = None , num_semanas=True):
       
-    df = pd.read_csv("data/df_precios_ingles.csv")
+    df = pd.read_csv("Data/df_precios_ingles.csv")
     df["Week"] = df["Week"].apply(lambda x: x.split(" ")[1])
     df['Date'] = df.apply(lambda row: pd.to_datetime(f'{int(row["Year"])}-W{int(row["Week"])}-1', format='%G-W%V-%u'), axis=1)
     df = df[df["Year"] == 2024]  
@@ -825,7 +825,7 @@ def funcion_agregado_prediccion(input_usuario_precio_gasoleo_semana_corriente = 
     #Se entra en ese comprobador cuanto solo la variable de la gasoleo existe
     elif input_usuario_precio_gasoleo_semana_corriente:
         #Se crea el df de la ultima fecha y la fig principal
-        df = pd.read_csv("data/df_precios_ingles.csv")
+        df = pd.read_csv("Data/df_precios_ingles.csv")
         df["Week"] = df["Week"].apply(lambda x: x.split(" ")[1])
         df['Date'] = df.apply(lambda row: pd.to_datetime(f'{int(row["Year"])}-W{int(row["Week"])}-1', format='%G-W%V-%u'), axis=1)
         df = df[df["Year"] == 2024]  
@@ -851,7 +851,7 @@ def funcion_agregado_prediccion(input_usuario_precio_gasoleo_semana_corriente = 
 
 #funcion crear grafica general
 def funcion_line_precio(choice):
-    df = pd.read_csv("data/df_precios_ingles.csv")
+    df = pd.read_csv("Data/df_precios_ingles.csv")
     df["Week"] = df["Week"].apply(lambda x: x.split(" ")[1])
     df['Date'] = df.apply(lambda row: pd.to_datetime(f'{int(row["Year"])}-W{int(row["Week"])}-1', format='%G-W%V-%u'), axis=1)
     

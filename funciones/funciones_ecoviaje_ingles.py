@@ -743,7 +743,7 @@ def funcion_precio_viaje_e(Model, km ,seleccion_usuario_punto_recarga):
 # ---------------------------------------------------- VIJAE Gasoline -------------------------------------------------
 def predicion_gasolina(input_usuario_precio_gasolina_semana_corriente):
     
-    df = pd.read_csv("./data/Precios_Gasolina_y_Precios_Gasoleo.csv")
+    df = pd.read_csv("./Data/Precios_Gasolina_y_Precios_Gasoleo.csv")
     with open('./Data/model_gasolina_pkl.pkl', 'rb') as file:
         modelo_pkl = pickle.load(file)
 
@@ -759,7 +759,7 @@ def predicion_gasolina(input_usuario_precio_gasolina_semana_corriente):
 # ----------------------------------------------------------- VIAJE Diesel -------------------------------------------------
 def predicion_gasoleo(input_usuario_precio_gasoleo_semana_corriente):
     
-    df = pd.read_csv("./data/Precios_Gasolina_y_Precios_Gasoleo.csv")
+    df = pd.read_csv("./Data/Precios_Gasolina_y_Precios_Gasoleo.csv")
     with open('./Data/model_gasoleo_pkl.pkl', 'rb') as file:
         modelo_pkl = pickle.load(file)
 
