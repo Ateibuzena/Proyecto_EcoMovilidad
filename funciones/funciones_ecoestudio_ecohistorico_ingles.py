@@ -912,14 +912,14 @@ def funcion_line_precio(choice):
     st.plotly_chart(fig, use_container_width=True)
 
 def ultima_funcion():
-    df_filtrado = df_coches[(df_coches["G"] == 1) | (df_coches["Sin clasificacion"] == 1)][["Emisiones Mínimo", "Emisiones Máximo", "Motorización", "G", "Sin clasificacion"]].copy()
-    df_filtrado['Clasificación Energética'] = np.where(df_filtrado['G'] == 1, 'G', 'Sin clasificacion')
-    df_filtrado['Clasificación Energética'] = np.where(df_filtrado['Sin clasificacion'] == 1, 'Sin clasificacion', df_filtrado['Clasificación Energética'])
+    df_filtrado = df_coches[(df_coches["G"] == 1) | (df_coches["Unclassified"] == 1)][["Minimum Emissions", "Maximum Emissions", "Engine Type", "G", "Unclassified"]].copy()
+    df_filtrado['Energy Clasification'] = np.where(df_filtrado['G'] == 1, 'G', 'Unclassified')
+    df_filtrado['Energy Clasification'] = np.where(df_filtrado['Unclassified'] == 1, 'Unclassified', df_filtrado['Energy Clasification'])
     fig = px.scatter(data_frame  = df_filtrado,
-            x           = "Emisiones Mínimo",
-            y           = "Emisiones Máximo",
-            hover_name  = "Motorización",
-            color       = "Clasificación Energética"
+            x           = "Minimum Emissions",
+            y           = "Maximum Emissions",
+            hover_name  = "Engine Type",
+            color       = "Energy Clasification"
             )
     
     fig.update_layout(
