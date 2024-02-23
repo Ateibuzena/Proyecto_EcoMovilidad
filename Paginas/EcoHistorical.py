@@ -136,7 +136,7 @@ The COVID-19 pandemic and associated restriction measures caused a decline in oi
     columna_1, columna_2 = st.columns(2)
 
     with columna_1:
-        df_metricas_gasolina = pd.read_csv("./data/df_metricas_gasolina.csv")
+        df_metricas_gasolina = pd.read_csv("Data/df_metricas_gasolina.csv")
         # Historial del mae
         mae = df_metricas_gasolina['mae'].to_list()
         val_mae = df_metricas_gasolina['val_mae'].to_list()
@@ -168,7 +168,7 @@ The COVID-19 pandemic and associated restriction measures caused a decline in oi
         st.plotly_chart(fig, use_container_width=True)
 
     with columna_2:
-        df_metricas_gasoleo = pd.read_csv("./data/df_metricas_gasoleo.csv")
+        df_metricas_gasoleo = pd.read_csv("Data/df_metricas_gasoleo.csv")
         # Historial de mae
         mae = df_metricas_gasoleo['mae'].to_list()
         val_mae = df_metricas_gasoleo["val_mae"].to_list()
@@ -220,7 +220,7 @@ The COVID-19 pandemic and associated restriction measures caused a decline in oi
     columna_1, columna_2 = st.columns(2)
 
     with columna_1:
-        df_metricas_gasolina = pd.read_csv("./data/df_metricas_gasolina.csv")
+        df_metricas_gasolina = pd.read_csv("Data/df_metricas_gasolina.csv")
         # Historial de Loss
         loss = df_metricas_gasolina['loss'].to_list()
         val_loss = df_metricas_gasolina["val_loss"].to_list()
@@ -252,7 +252,7 @@ The COVID-19 pandemic and associated restriction measures caused a decline in oi
         st.plotly_chart(fig, use_container_width=True)
 
     with columna_2:
-        df_metricas_gasoleo = pd.read_csv("./data/df_metricas_gasoleo.csv")
+        df_metricas_gasoleo = pd.read_csv("Data/df_metricas_gasoleo.csv")
         # Historial de Loss
         loss = df_metricas_gasoleo['loss'].to_list()
         val_loss = df_metricas_gasoleo['val_loss'].to_list()
