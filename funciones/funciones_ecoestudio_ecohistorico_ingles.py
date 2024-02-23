@@ -9,7 +9,7 @@ import plotly.subplots as sp
 import plotly.graph_objects as go
 
 
-
+from tensorflow.keras.models import load_model
 #Importar archivos relevantes
 
 df_coches = pd.read_csv("Data/df_coches_escrapeo_ingles.csv")
@@ -619,8 +619,7 @@ def predicion_gasolina(input_usuario_precio_gasolina_semana_corriente):
     #cargar el df con el registro de la evolucion de precios
     df = pd.read_csv("Data/df_precios_ingles.csv")
     #cargar el pickle con el modelo entrenado
-    with open('Data/model_gasolina_pkl.pkl', 'rb') as file:
-        modelo_pkl = pickle.load(file)
+    modelo_pkl = load_model('../data/model_gasolina')
     #nos quedamos con las ultimas 9 instancias del modelo
     instancia = df["Gasoline Price"][-10: -1].to_list()
     #appendeamos la nueva instancia para tener 10
@@ -637,8 +636,7 @@ def predicion_gasoleo(input_usuario_precio_gasoleo_semana_corriente):
     #cargar el df con el registro de la evolucion de precios
     df = pd.read_csv("Data/df_precios_ingles.csv")
     #cargar el pickle con el modelo entrenado
-    with open('Data/model_gasoleo_pkl.pkl', 'rb') as file:
-        modelo_pkl = pickle.load(file)
+    modelo_pkl = load_model('../data/model_gasoleo')
     #nos quedamos con las ultimas 9 instancias del modelo
     instancia = df["Diesel Price"][-10: -1].to_list()
     #appendeamos la nueva instancia para tener 10
@@ -656,8 +654,7 @@ def predicion_gasoleo(input_usuario_precio_gasoleo_semana_corriente):
 def predicion_gasolina_semanas(input_usuario_precio_gasolina_semana_corriente, num_semanas):
     #cargamos el df con precios y el modelo pkl  
     df = pd.read_csv("Data/df_precios_ingles.csv")
-    with open('Data/model_gasolina_pkl.pkl', 'rb') as file:
-        modelo_pkl = pickle.load(file)
+    modelo_pkl = load_model('../data/model_gasolina')
     #recorremos un bucle para predecir la primera instancia, agregar esta a una nueva lista y continuar prediciendo en función de las semanas indicadas.    
     for n in range(num_semanas):
         if n == 0:
@@ -684,8 +681,7 @@ def predicion_gasolina_semanas(input_usuario_precio_gasolina_semana_corriente, n
 def predicion_gasoleo_semanas(input_usuario_precio_gasoleo_semana_corriente, num_semanas):
     #cargamos el df con precios y el modelo pkl  
     df = pd.read_csv("Data/df_precios_ingles.csv")
-    with open('Data/model_gasoleo_pkl.pkl', 'rb') as file:
-        modelo_pkl = pickle.load(file)
+    modelo_pkl = load_model('../data/model_gasoleo')
     #recorremos un bucle para predecir la primera instancia, agregar esta a una nueva lista y continuar prediciendo en función de las semanas indicadas.    
     for n in range(num_semanas):
         if n == 0:
