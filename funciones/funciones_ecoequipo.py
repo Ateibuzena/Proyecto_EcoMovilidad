@@ -493,7 +493,7 @@ def cabecera_ana():
 
             st.link_button(label = "Linkedln",
                     
-                    url = "www.linkedin.com/in/ana-zubieta")
+                    url = "https://www.linkedin.com/in/ana-zubieta")
 
 def cabecera_ana_ingles():
 
@@ -544,4 +544,4 @@ def cabecera_ana_ingles():
 
             st.link_button(label = "Linkedln",
                     
-                    url = "www.linkedin.com/in/ana-zubieta")
+                    url = "https://www.linkedin.com/in/ana-zubieta")
