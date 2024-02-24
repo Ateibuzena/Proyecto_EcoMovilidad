@@ -18,6 +18,7 @@ st.set_page_config(layout = "wide")
 def main():
 
     def crowfunding():
+        
         import webbrowser
 
         browser = webbrowser.get()
@@ -66,6 +67,7 @@ def main():
             pagina_ecoencuesta()
        
         st.sidebar.button("Apoya nuestro proyecto ❤️", on_click=crowfunding)
+        st.sidebar.link_button("Apoyanos", "https://www.buymeacoffee.com/ecoequipoe3")
 
 if __name__ == "__main__":
     main()
