@@ -53,7 +53,6 @@ def cabecera_maria():
             st.markdown("")
             st.markdown("")
             st.markdown("")
-            st.link_button()
 
             st.link_button(
                             label = "GitHub",
