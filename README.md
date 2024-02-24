@@ -31,7 +31,7 @@ Si estás interesado en contribuir a nuestro proyecto, ¡te invitamos a que te u
 Para cualquier consulta o información adicional, no dudes en contactarnos a través de:
 
 - Correo electrónico: ena.ateibuz@gmail.com , danielvillarayo@gmail.com , mariagomezr96@gmail.com , kevinalexisespinoza@gmail.com ,  lorena.aljorra1994@gmail.com
-- GitHub: [EcoViaje en GitHub](https://github.com/Ateibuzena), [EcoViaje en GitHub](https://github.com/Malosy26), [EcoViaje en GitHub](https://github.com/mariagomez96-stack), [EcoViaje en GitHub](https://github.com/KevinAlexisEsp), [EcoViaje en GitHub](https://github.com/LorenaMtnez94)
-- LinkedIn: [EcoViaje en LinkedIn](https://www.linkedin.com/in/ana-zubieta/), [EcoViaje en LinkedIn](https://www.linkedin.com/in/dvr0001/), [EcoViaje en LinkedIn](https://www.linkedin.com/in/mariagomezroman/), [EcoViaje en LinkedIn](https://www.linkedin.com/in/kevin-alexis-espinoza/), [EcoViaje en LinkedIn](https://www.linkedin.com/in/lorenamtnez/)
+- GitHub: [Ana en GitHub](https://github.com/Ateibuzena), [Daniel en GitHub](https://github.com/Malosy26), [María en GitHub](https://github.com/mariagomez96-stack), [Kevin en GitHub](https://github.com/KevinAlexisEsp), [Lorena en GitHub](https://github.com/LorenaMtnez94)
+- LinkedIn: [Ana en LinkedIn](https://www.linkedin.com/in/ana-zubieta/), [Daniel en LinkedIn](https://www.linkedin.com/in/dvr0001/), [María en LinkedIn](https://www.linkedin.com/in/mariagomezroman/), [Kevin en LinkedIn](https://www.linkedin.com/in/kevin-alexis-espinoza/), [Lorena en LinkedIn](https://www.linkedin.com/in/lorenamtnez/)
 
 ¡Gracias por ser parte de EcoViaje y contribuir a un futuro más sostenible para todos! 🌱🚗✨
