@@ -54,18 +54,19 @@ def cabecera_maria():
             st.markdown("")
             st.markdown("")
             st.link_button()
-            st.link_button(use_container_width=True,
-                        label = "GitHub",
-                        key   = "git_maria", url = "https://github.com/mariagomez96-stack")
+
+            st.link_button(
+                            label = "GitHub",
+                            url = "https://github.com/mariagomez96-stack")
             
             st.markdown("")
             st.markdown("")
             st.markdown("")
             st.markdown("")
 
-            st.link_button(label = "Linkedln",
-                        use_container_width=True,
-                        key   = "linkedin_maria", url = "https://www.linkedin.com/in/mariagomezroman/")
+            st.link_button(
+                            label = "Linkedln",
+                            url = "https://www.linkedin.com/in/mariagomezroman/")
             
 
 def cabecera_maria_ingles():
@@ -109,9 +110,9 @@ def cabecera_maria_ingles():
             st.markdown("")
             st.markdown("")
             
-            st.link_button(use_container_width=True,
+            st.link_button(
                         label = "GitHub",
-                        key   = "git_maria", url = "https://github.com/mariagomez96-stack")
+                        url = "https://github.com/mariagomez96-stack")
             
             st.markdown("")
             st.markdown("")
@@ -119,8 +120,8 @@ def cabecera_maria_ingles():
             st.markdown("")
 
             st.link_button(label = "Linkedln",
-                        use_container_width=True,
-                        key   = "linkedin_maria", url = "https://www.linkedin.com/in/mariagomezroman/")
+                        
+                        url = "https://www.linkedin.com/in/mariagomezroman/")
 
 def cabecera_kevin():
 
@@ -163,9 +164,9 @@ def cabecera_kevin():
             st.markdown("")
             st.markdown("")
             
-            st.link_button(use_container_width=True,
+            st.link_button(
                     label = "GitHub",
-                    key   = "git_kevin", url = "https://github.com/KevinAlexisEsp")
+                    url = "https://github.com/KevinAlexisEsp")
             
             st.markdown("")
             st.markdown("")
@@ -173,8 +174,8 @@ def cabecera_kevin():
             st.markdown("")
 
             st.link_button(label = "Linkedln",
-                    use_container_width=True,
-                    key   = "linkedin_kevin", url = "https://www.linkedin.com/in/kevin-alexis-espinoza/")
+                    
+                            url = "https://www.linkedin.com/in/kevin-alexis-espinoza/")
 
 
 def cabecera_kevin_ingles():
@@ -217,9 +218,9 @@ def cabecera_kevin_ingles():
             st.markdown("")
             st.markdown("")
             
-            st.link_button(use_container_width=True,
+            st.link_button(
                     label = "GitHub",
-                    key   = "git_kevin", url = "https://github.com/KevinAlexisEsp")
+                    url = "https://github.com/KevinAlexisEsp")
             
             st.markdown("")
             st.markdown("")
@@ -227,8 +228,8 @@ def cabecera_kevin_ingles():
             st.markdown("")
 
             st.link_button(label = "Linkedln",
-                    use_container_width=True,
-                    key   = "linkedin_kevin", url = "https://www.linkedin.com/in/kevin-alexis-espinoza/")
+                    
+                    url = "https://www.linkedin.com/in/kevin-alexis-espinoza/")
 
 
 def cabecera_lorena():
@@ -270,9 +271,9 @@ def cabecera_lorena():
             st.markdown("")
             st.markdown("")
 
-            st.link_button(use_container_width=True,
+            st.link_button(
                         label = "GitHub",
-                        key   = "git_lorena", url = "https://github.com/LorenaMtnez94")
+                        url = "https://github.com/LorenaMtnez94")
             
             st.markdown("")
             st.markdown("")
@@ -281,8 +282,8 @@ def cabecera_lorena():
 
         
             st.link_button(label = "Linkedln",
-                        use_container_width=True,
-                        key   = "linkedin_lorena", url = "https://www.linkedin.com/in/lorenamtnez/")
+                        
+                        url = "https://www.linkedin.com/in/lorenamtnez/")
 
 
 def cabecera_lorena_ingles():
@@ -324,9 +325,9 @@ def cabecera_lorena_ingles():
             st.markdown("")
             st.markdown("")
 
-            st.link_button(use_container_width=True,
+            st.link_button(
                         label = "GitHub",
-                        key   = "git_lorena", utl = "https://github.com/LorenaMtnez94")
+                        url = "https://github.com/LorenaMtnez94")
             st.markdown("")
             st.markdown("")
             st.markdown("")
@@ -334,8 +335,8 @@ def cabecera_lorena_ingles():
 
         
             st.link_button(label = "Linkedln",
-                        use_container_width=True,
-                        key   = "linkedin_lorena", url = "https://www.linkedin.com/in/lorenamtnez/")
+                        
+                        url = "https://www.linkedin.com/in/lorenamtnez/")
 
 
 def cabecera_dani():
@@ -376,9 +377,9 @@ def cabecera_dani():
             st.markdown("")
             st.markdown("")
 
-            st.link_button(use_container_width=True,
+            st.link_button(
                         label = "GitHub",
-                        key   = "git_dani", url = "https://github.com/Malosy26")
+                        url = "https://github.com/Malosy26")
             
             st.markdown("")
             st.markdown("")
@@ -386,8 +387,8 @@ def cabecera_dani():
             st.markdown("")
 
             st.link_button(label = "Linkedln",
-                        use_container_width=True,
-                        key   = "linkedin_dani", url = "https://www.linkedin.com/in/dvr0001/")
+                        
+                        url = "https://www.linkedin.com/in/dvr0001/")
 
 
 def cabecera_dani_ingles():
@@ -429,17 +430,17 @@ def cabecera_dani_ingles():
             st.markdown("")
             st.markdown("")
 
-            st.button(use_container_width=True,
+            st.link_button(
                         label = "GitHub",
-                        key   = "git_dani", url =  "https://github.com/Malosy26")
+                        url =  "https://github.com/Malosy26")
             st.markdown("")
             st.markdown("")
             st.markdown("")
             st.markdown("")
 
-            st.button(label = "Linkedln",
-                        use_container_width=True,
-                        key   = "linkedin_dani", url = "https://www.linkedin.com/in/dvr0001/")
+            st.link_button(label = "Linkedln",
+                        
+                        url = "https://www.linkedin.com/in/dvr0001/")
 
 
 
@@ -481,9 +482,9 @@ def cabecera_ana():
             st.markdown("")
             st.markdown("")
 
-            st.button(use_container_width=True,
+            st.link_button(
                     label = "GitHub",
-                    key   = "git_ana", url = "https://github.com/Ateibuzena")
+                    url = "https://github.com/Ateibuzena")
             
             st.markdown("")
             st.markdown("")
@@ -491,8 +492,8 @@ def cabecera_ana():
             st.markdown("")
 
             st.link_button(label = "Linkedln",
-                    use_container_width=True,
-                    key   = "Linkedin_ana", url = "www.linkedin.com/in/ana-zubieta")
+                    
+                    url = "www.linkedin.com/in/ana-zubieta")
 
 def cabecera_ana_ingles():
 
@@ -532,9 +533,9 @@ def cabecera_ana_ingles():
             st.markdown("")
             st.markdown("")
 
-            st.link_button(use_container_width=True,
+            st.link_button(
                     label = "GitHub",
-                    key   = "git_ana", url = "https://github.com/Ateibuzena")
+                    url = "https://github.com/Ateibuzena")
             
             st.markdown("")
             st.markdown("")
@@ -542,5 +543,5 @@ def cabecera_ana_ingles():
             st.markdown("")
 
             st.link_button(label = "Linkedln",
-                    use_container_width=True,
-                    key   = "Linkedin_ana", url = "www.linkedin.com/in/ana-zubieta")
+                    
+                    url = "www.linkedin.com/in/ana-zubieta")
