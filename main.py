@@ -16,15 +16,7 @@ from archivos_py.EcoQuiz import *
 st.set_page_config(layout = "wide")
 
 def main():
-
-    def crowfunding():
-        
-        import webbrowser
-
-        browser = webbrowser.get()
-        browser.open("https://www.buymeacoffee.com/ecoequipoe3")
     
-
     seleccion_idioma = st.sidebar.toggle("English")
 
     if seleccion_idioma:
@@ -43,8 +35,8 @@ def main():
             pagina_ecofaqs_ingles()
         elif seleccion_pagina == "EcoQuiz":
             pagina_ecoencuesta_ingles()
-        
-        st.sidebar.button("Support our project ❤️", on_click=crowfunding)
+            
+        st.sidebar.link_button("Support our project ❤️", "https://www.buymeacoffee.com/ecoequipoe3")
 
     else:
 
@@ -66,8 +58,7 @@ def main():
         elif seleccion_pagina == "EcoEncuesta":
             pagina_ecoencuesta()
        
-        st.sidebar.button("Apoya nuestro proyecto ❤️", on_click=crowfunding)
-        st.sidebar.link_button("Apoyanos", "https://www.buymeacoffee.com/ecoequipoe3")
+        st.sidebar.link_button("Apoya nuestro proyecto ❤️", "https://www.buymeacoffee.com/ecoequipoe3")
 
 if __name__ == "__main__":
     main()
