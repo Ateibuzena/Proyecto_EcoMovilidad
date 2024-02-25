@@ -22,7 +22,7 @@ def cabecera_maria():
         st.markdown("")
         st.markdown("")
        
-        foto_maria = Image.open(r"./images/foto_maria.png")
+        foto_maria = Image.open(r"images/foto_maria.png")
         st.image(foto_maria, width=300)
 
     with columna_2:
@@ -45,7 +45,7 @@ def cabecera_maria():
             # Botón de descarga
             st.download_button(use_container_width=True,
                             label="Descargar CV",
-                            data=open(r"./images/cv_maria.pdf", "rb").read(),
+                            data=open(r"images/cv_maria.pdf", "rb").read(),
                             file_name="maria_cv.pdf",
                             key="descargar_cv_maria")
             
@@ -53,19 +53,15 @@ def cabecera_maria():
             st.markdown("")
             st.markdown("")
             st.markdown("")
-
-            st.link_button(
-                            label = "GitHub",
-                            url = "https://github.com/mariagomez96-stack")
             
-            st.markdown("")
-            st.markdown("")
-            st.markdown("")
-            st.markdown("")
+            st.link_button("GitHub", "https://github.com/mariagomez96-stack")
 
-            st.link_button(
-                            label = "Linkedln",
-                            url = "https://www.linkedin.com/in/mariagomezroman/")
+            st.markdown("")
+            st.markdown("")
+            st.markdown("")
+            st.markdown("")
+            
+            st.link_button("Linkedln", "https://www.linkedin.com/in/mariagomezroman/")
             
 
 def cabecera_maria_ingles():
@@ -77,7 +73,7 @@ def cabecera_maria_ingles():
         st.markdown("")
         st.markdown("")
        
-        foto_maria = Image.open(r"./images/foto_maria.png")
+        foto_maria = Image.open(r"images/foto_maria.png")
         st.image(foto_maria, width=300)
 
     with columna_2:
@@ -100,7 +96,7 @@ def cabecera_maria_ingles():
             # Botón de descarga
             st.download_button(use_container_width=True,
                             label="Download CV",
-                            data=open(r"./images/cv_maria.pdf", "rb").read(),
+                            data=open(r"images/cv_maria.pdf", "rb").read(),
                             file_name="maria_cv.pdf",
                             key="descargar_cv_maria")
             
@@ -109,18 +105,14 @@ def cabecera_maria_ingles():
             st.markdown("")
             st.markdown("")
             
-            st.link_button(
-                        label = "GitHub",
-                        url = "https://github.com/mariagomez96-stack")
+            st.link_button("GitHub", "https://github.com/mariagomez96-stack")
             
             st.markdown("")
             st.markdown("")
             st.markdown("")
             st.markdown("")
 
-            st.link_button(label = "Linkedln",
-                        
-                        url = "https://www.linkedin.com/in/mariagomezroman/")
+            st.link_button("Linkedln", "https://www.linkedin.com/in/mariagomezroman/")
 
 def cabecera_kevin():
 
@@ -131,7 +123,7 @@ def cabecera_kevin():
         st.markdown("")
         st.markdown("")
     
-        foto_kevin = Image.open(r"./images/foto_kevin.png")
+        foto_kevin = Image.open(r"images/foto_kevin.png")
         st.image(foto_kevin, width=300)
 
     with columna_2:
@@ -154,7 +146,7 @@ def cabecera_kevin():
             # Botón de descarga
             st.download_button(use_container_width=True,
                         label="Descargar CV",
-                        data=open(r"./images/CV_Kevin_Espinoza.pdf", "rb").read(),
+                        data=open(r"images/CV_Kevin_Espinoza.pdf", "rb").read(),
                         file_name="kevin_cv.pdf",
                         key="descargar_cv_kevin")
             
@@ -163,20 +155,15 @@ def cabecera_kevin():
             st.markdown("")
             st.markdown("")
             
-            st.link_button(
-                    label = "GitHub",
-                    url = "https://github.com/KevinAlexisEsp")
+            st.link_button("GitHub", "https://github.com/KevinAlexisEsp")
             
             st.markdown("")
             st.markdown("")
             st.markdown("")
             st.markdown("")
 
-            st.link_button(label = "Linkedln",
-                    
-                            url = "https://www.linkedin.com/in/kevin-alexis-espinoza/")
-
-
+            st.link_button("Linkedln", "https://www.linkedin.com/in/kevin-alexis-espinoza/")
+            
 def cabecera_kevin_ingles():
 
     columna_1, columna_2, columna_3 = st.columns([1.5, 2, 1])
@@ -185,7 +172,7 @@ def cabecera_kevin_ingles():
         st.markdown("")
         st.markdown("")
     
-        foto_kevin = Image.open(r"./images/foto_kevin.png")
+        foto_kevin = Image.open(r"images/foto_kevin.png")
         st.image(foto_kevin, width=300)
 
     with columna_2:
@@ -208,7 +195,7 @@ def cabecera_kevin_ingles():
             # Botón de descarga
             st.download_button(use_container_width=True,
                         label="Download CV",
-                        data=open(r"./images/CV_Kevin_Espinoza.pdf", "rb").read(),
+                        data=open(r"images/CV_Kevin_Espinoza.pdf", "rb").read(),
                         file_name="kevin_cv.pdf",
                         key="descargar_cv_kevin")
             
@@ -217,18 +204,14 @@ def cabecera_kevin_ingles():
             st.markdown("")
             st.markdown("")
             
-            st.link_button(
-                    label = "GitHub",
-                    url = "https://github.com/KevinAlexisEsp")
+            st.link_button("GitHub", "https://github.com/KevinAlexisEsp")
             
             st.markdown("")
             st.markdown("")
             st.markdown("")
             st.markdown("")
 
-            st.link_button(label = "Linkedln",
-                    
-                    url = "https://www.linkedin.com/in/kevin-alexis-espinoza/")
+            st.link_button("Linkedln", "https://www.linkedin.com/in/kevin-alexis-espinoza/")
 
 
 def cabecera_lorena():
@@ -239,7 +222,7 @@ def cabecera_lorena():
         st.markdown("")
         st.markdown("")
     
-        foto_lorena = Image.open(r"./images/foto_lorena.png")
+        foto_lorena = Image.open(r"images/foto_lorena.png")
         st.image(foto_lorena, width=300)
 
     with columna_2:
@@ -262,28 +245,22 @@ def cabecera_lorena():
 
             st.download_button(use_container_width=True,
                         label="Descargar CV",
-                        data = open(r"./images/cv_lorena.pdf", "rb").read(),
+                        data = open(r"images/cv_lorena.pdf", "rb").read(),
                         file_name="lorena_cv.pdf",
                         key="descargar_cv_lorena")
             st.markdown("")
             st.markdown("")
             st.markdown("")
             st.markdown("")
-
-            st.link_button(
-                        label = "GitHub",
-                        url = "https://github.com/LorenaMtnez94")
             
+            st.link_button("GitHub", "https://github.com/LorenaMtnez94")
+
             st.markdown("")
             st.markdown("")
             st.markdown("")
             st.markdown("")
 
-        
-            st.link_button(label = "Linkedln",
-                        
-                        url = "https://www.linkedin.com/in/lorenamtnez/")
-
+            st.link_button("Linkedln", "https://www.linkedin.com/in/lorenamtnez/")
 
 def cabecera_lorena_ingles():
 
@@ -293,7 +270,7 @@ def cabecera_lorena_ingles():
         st.markdown("")
         st.markdown("")
     
-        foto_lorena = Image.open(r"./images/foto_lorena.png")
+        foto_lorena = Image.open(r"images/foto_lorena.png")
         st.image(foto_lorena, width=300)
 
     with columna_2:
@@ -316,28 +293,23 @@ def cabecera_lorena_ingles():
 
             st.download_button(use_container_width=True,
                         label="Download CV",
-                        data = open(r"./images/cv_lorena.pdf", "rb").read(),
+                        data = open(r"images/cv_lorena.pdf", "rb").read(),
                         file_name="lorena_cv.pdf",
                         key="descargar_cv_lorena")
             st.markdown("")
             st.markdown("")
             st.markdown("")
             st.markdown("")
-
-            st.link_button(
-                        label = "GitHub",
-                        url = "https://github.com/LorenaMtnez94")
+            
+            st.link_button("GitHub", "https://github.com/LorenaMtnez94")
+                    
             st.markdown("")
             st.markdown("")
             st.markdown("")
             st.markdown("")
 
+            st.link_button("Linkedln", "https://www.linkedin.com/in/lorenamtnez/")
         
-            st.link_button(label = "Linkedln",
-                        
-                        url = "https://www.linkedin.com/in/lorenamtnez/")
-
-
 def cabecera_dani():
 
     columna_1, columna_2, columna_3 = st.columns([1.5, 2, 1])
@@ -346,7 +318,7 @@ def cabecera_dani():
         st.markdown("")
         st.markdown("")
     
-        foto_dani = Image.open(r"./images/foto_dani.png")
+        foto_dani = Image.open(r"images/foto_dani.png")
         st.image(foto_dani, width=300)
 
     with columna_2:
@@ -368,28 +340,23 @@ def cabecera_dani():
         # Botón de descarga
             st.download_button(use_container_width=True,
                             label="Descargar CV",
-                            data=open(r"./images/cv_dani.pdf", "rb").read(),
+                            data=open(r"images/cv_dani.pdf", "rb").read(),
                             file_name="dani_cv.pdf",
                             key="descargar_cv_dani")
             st.markdown("")
             st.markdown("")
             st.markdown("")
             st.markdown("")
-
-            st.link_button(
-                        label = "GitHub",
-                        url = "https://github.com/Malosy26")
+               
+            st.link_button("GitHub", "https://github.com/Malosy26") 
             
             st.markdown("")
             st.markdown("")
             st.markdown("")
             st.markdown("")
-
-            st.link_button(label = "Linkedln",
-                        
-                        url = "https://www.linkedin.com/in/dvr0001/")
-
-
+    
+            st.link_button("Linkedln", "https://www.linkedin.com/in/dvr0001/") 
+          
 def cabecera_dani_ingles():
 
     
@@ -399,7 +366,7 @@ def cabecera_dani_ingles():
         st.markdown("")
         st.markdown("")
     
-        foto_dani = Image.open(r"./images/foto_dani.png")
+        foto_dani = Image.open(r"images/foto_dani.png")
         st.image(foto_dani, width=300)
 
     with columna_2:
@@ -421,7 +388,7 @@ def cabecera_dani_ingles():
         # Botón de descarga
             st.download_button(use_container_width=True,
                             label="Download CV",
-                            data=open(r"./images/cv_dani.pdf", "rb").read(),
+                            data=open(r"images/cv_dani.pdf", "rb").read(),
                             file_name="dani_cv.pdf",
                             key="descargar_cv_dani")
             st.markdown("")
@@ -429,17 +396,14 @@ def cabecera_dani_ingles():
             st.markdown("")
             st.markdown("")
 
-            st.link_button(
-                        label = "GitHub",
-                        url =  "https://github.com/Malosy26")
+            st.link_button("GitHub", "https://github.com/Malosy26")
+            
             st.markdown("")
             st.markdown("")
             st.markdown("")
             st.markdown("")
 
-            st.link_button(label = "Linkedln",
-                        
-                        url = "https://www.linkedin.com/in/dvr0001/")
+            st.link_button("Linkedln", "https://www.linkedin.com/in/dvr0001/") 
 
 
 
@@ -451,7 +415,7 @@ def cabecera_ana():
         st.markdown("")
         st.markdown("")
     
-        foto_ana = Image.open(r"./images/foto_ana.png")
+        foto_ana = Image.open(r"images/foto_ana.png")
         st.image(foto_ana, width=300)
 
     with columna_2:
@@ -473,26 +437,22 @@ def cabecera_ana():
         # Botón de descarga
             st.download_button(use_container_width=True,
                         label="Descargar CV",
-                        data=open(r"./images/cv_ana.pdf", "rb").read(),
+                        data=open(r"images/cv_ana.pdf", "rb").read(),
                         file_name="cv_ana.pdf",
                         key="descargar_cv_ana") 
             st.markdown("")
             st.markdown("")
             st.markdown("")
             st.markdown("")
-
-            st.link_button(
-                    label = "GitHub",
-                    url = "https://github.com/Ateibuzena")
             
+            st.link_button("GitHub", "https://github.com/Ateibuzena")
+
             st.markdown("")
             st.markdown("")
             st.markdown("")
             st.markdown("")
 
-            st.link_button(label = "Linkedln",
-                    
-                    url = "https://www.linkedin.com/in/ana-zubieta")
+            st.link_button("Linkedln", "https://www.linkedin.com/in/ana-zubieta")
 
 def cabecera_ana_ingles():
 
@@ -502,7 +462,7 @@ def cabecera_ana_ingles():
         st.markdown("")
         st.markdown("")
     
-        foto_ana = Image.open(r"./images/foto_ana.png")
+        foto_ana = Image.open(r"images/foto_ana.png")
         st.image(foto_ana, width=300)
 
     with columna_2:
@@ -524,7 +484,7 @@ def cabecera_ana_ingles():
         # Botón de descarga
             st.download_button(use_container_width=True,
                         label="Download CV",
-                        data=open(r"./images/cv_ana.pdf", "rb").read(),
+                        data=open(r"images/cv_ana.pdf", "rb").read(),
                         file_name="cv_ana.pdf",
                         key="descargar_cv_ana") 
             st.markdown("")
@@ -532,15 +492,105 @@ def cabecera_ana_ingles():
             st.markdown("")
             st.markdown("")
 
-            st.link_button(
-                    label = "GitHub",
-                    url = "https://github.com/Ateibuzena")
+            st.link_button("GitHub", "https://github.com/Ateibuzena")
             
             st.markdown("")
             st.markdown("")
             st.markdown("")
             st.markdown("")
 
-            st.link_button(label = "Linkedln",
-                    
-                    url = "https://www.linkedin.com/in/ana-zubieta")
+            st.link_button("Linkedln", "https://www.linkedin.com/in/ana-zubieta")
+
+def cabecera_cristian():
+
+    columna_1, columna_2, columna_3 = st.columns([1.5, 2, 1])
+
+    with columna_1:
+        st.markdown("")
+        st.markdown("")
+    
+        foto_ana = Image.open(r"images/foto_cristian.png")
+        st.image(foto_ana, width=300)
+
+    with columna_2:
+        st.write("<span style='display: block; text-align: justify; font-size: 30px; font-weight: bold;'>Cristian Rosillo</span>", unsafe_allow_html=True)
+
+        st.markdown("<span style='color: cyan; white-space: nowrap; text-align: center; font-size: 25px; font-weight: bold;'>Data Scientist</span>", unsafe_allow_html=True)
+
+        st.write("<p style='text-align: justify; font-size: 18px;'>Me considero una persona proactiva, con iniciativa y responsable. Trabajo bien en equipo. Me ilusiona poder abrirme nuevas oportunidades, adquirir nuevos conocimientos y seguir creciendo profesionalmente.</p>", unsafe_allow_html=True)
+
+        st.write("")
+        st.markdown("""##### :email: rocecristian@gmail.com""")
+
+    with columna_3:
+        c_1, c_2 = st.columns(2)
+
+        with c_2:
+            st.markdown("")
+            st.markdown("")
+        # Botón de descarga
+            st.download_button(use_container_width=True,
+                        label="Descargar CV",
+                        data=open(r"images/CV_(EN)_Cristian_Rosillo_César.pdf", "rb").read(),
+                        file_name="cv_ana.pdf",
+                        key="descargar_cv_ana") 
+            st.markdown("")
+            st.markdown("")
+            st.markdown("")
+            st.markdown("")
+            
+            st.link_button("GitHub", "https://github.com/Cristianroce")
+
+            st.markdown("")
+            st.markdown("")
+            st.markdown("")
+            st.markdown("")
+
+            st.link_button("Linkedln", "https://www.linkedin.com/in/rocecristian")
+
+def cabecera_cristian_ingles():
+
+    columna_1, columna_2, columna_3 = st.columns([1.5, 2, 1])
+
+    with columna_1:
+        st.markdown("")
+        st.markdown("")
+    
+        foto_ana = Image.open(r"images/foto_cristian.png")
+        st.image(foto_ana, width=300)
+
+    with columna_2:
+        st.write("<span style='display: block; text-align: justify; font-size: 30px; font-weight: bold;'>Cristian Rosillo</span>", unsafe_allow_html=True)
+
+        st.markdown("<span style='color: cyan; white-space: nowrap; text-align: center; font-size: 25px; font-weight: bold;'>Data Scientist</span>", unsafe_allow_html=True)
+
+        st.write("<p style='text-align: justify; font-size: 18px;'>I am a proactive person, with initiative and I am responsible. Teamwork is another of my strengths. I'm excited to be able to open up new opportunities, gain new knowledge and keep growing professionally.</p>", unsafe_allow_html=True)
+
+        st.write("")
+        st.markdown("""##### :email: rocecristian@gmail.com""")
+
+    with columna_3:
+        c_1, c_2 = st.columns(2)
+
+        with c_2:
+            st.markdown("")
+            st.markdown("")
+        # Botón de descarga
+            st.download_button(use_container_width=True,
+                        label="Download CV",
+                        data=open(r"images/CV_(ES)_Cristian_Rosillo_César.pdf", "rb").read(),
+                        file_name="cv_ana.pdf",
+                        key="descargar_cv_ana") 
+            st.markdown("")
+            st.markdown("")
+            st.markdown("")
+            st.markdown("")
+
+            st.link_button("GitHub", "https://github.com/Cristianroce")
+            
+            st.markdown("")
+            st.markdown("")
+            st.markdown("")
+            st.markdown("")
+
+            st.link_button("Linkedln", "https://www.linkedin.com/in/rocecristian")

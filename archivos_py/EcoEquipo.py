@@ -34,6 +34,10 @@ def pagina_portfolio():
     linea()
     st.write(" ")
     cabecera_lorena()
+    st.write(" ")
+    linea()
+    st.write(" ")
+    cabecera_cristian()
     
 
 
@@ -62,13 +66,7 @@ def pagina_portfolio_ingles():
     linea()
     st.write(" ")
     cabecera_lorena_ingles()
-    
-
-
-
-
-
-    
-
-
-    
+    st.write(" ")
+    linea()
+    st.write(" ")
+    cabecera_cristian_ingles()
