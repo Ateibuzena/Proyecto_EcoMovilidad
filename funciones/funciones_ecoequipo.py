@@ -532,8 +532,8 @@ def cabecera_cristian():
             st.download_button(use_container_width=True,
                         label="Descargar CV",
                         data=open(r"images/CV_(EN)_Cristian_Rosillo_César.pdf", "rb").read(),
-                        file_name="cv_ana.pdf",
-                        key="descargar_cv_ana") 
+                        file_name="cv_cristian.pdf",
+                        key="descargar_cv_cristian") 
             st.markdown("")
             st.markdown("")
             st.markdown("")
@@ -579,8 +579,8 @@ def cabecera_cristian_ingles():
             st.download_button(use_container_width=True,
                         label="Download CV",
                         data=open(r"images/CV_(ES)_Cristian_Rosillo_César.pdf", "rb").read(),
-                        file_name="cv_ana.pdf",
-                        key="descargar_cv_ana") 
+                        file_name="cv_cristian.pdf",
+                        key="descargar_cv_cristian") 
             st.markdown("")
             st.markdown("")
             st.markdown("")
