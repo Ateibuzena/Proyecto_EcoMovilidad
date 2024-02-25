@@ -56,7 +56,7 @@ def pagina_ecoencuesta():
                         st.balloons()
                         st.balloons()
                         sleep(0.5)
-                elif respuestas_correctas < 4:
+                else:
                     st.error("¡Casi! ¡La próxima vez lo harás mejor!")
                     
                     bombardeo()
