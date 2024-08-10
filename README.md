@@ -1,37 +1,37 @@
-# EcoMovilidad: Hacemos tu viaje más fácil.
+# EcoMovilidad: Making Your Journey Easier
 
-¡Bienvenido a EcoMovilidad! 🌱🚗✨
+Welcome to EcoMovilidad! 🌱🚗✨
 
-Esta página web es un proyecto de ciencia de datos enfocado en el consumo de combustible y electricidad de los vehículos, ya sean eléctricos, híbridos o de combustión. Nuestro objetivo es proporcionar a los usuarios una herramienta fácil de usar y precisa para comparar distintos tipos de vehículos en función de sus características principales y estimar los costes asociados a su consumo por recorrido, permitiendo así tomar decisiones informadas sobre qué vehículo se adapta mejor a sus necesidades.
+This website is a data science project focused on the fuel and electricity consumption of vehicles, whether electric, hybrid, or combustion. Our goal is to provide users with an easy-to-use and accurate tool to compare different types of vehicles based on their main features and estimate the costs associated with their consumption per journey, thereby enabling informed decisions about which vehicle best suits their needs.
 
-## Acerca de EcoMovilidad
+## About EcoMovilidad
 
-Durante la última década, hemos sido testigos de un crecimiento constante en las emisiones de CO2, impulsadas por el auge económico y nuestra dependencia de los combustibles fósiles. A pesar de los avances en tecnologías limpias, el desafío del cambio climático sigue siendo urgente y requiere acción inmediata.
+Over the past decade, we have witnessed a steady increase in CO2 emissions, driven by economic growth and our reliance on fossil fuels. Despite advancements in clean technologies, the challenge of climate change remains urgent and requires immediate action.
 
-Es por eso que ofrecemos un análisis detallado de los distintos vehículos para que puedas entender cuáles son más "ecoresponsables" y tomar decisiones que contribuyan a un futuro más limpio y sostenible.
+That’s why we offer a detailed analysis of different vehicles so you can understand which ones are more "eco-friendly" and make decisions that contribute to a cleaner and more sustainable future.
 
-## Características Principales
+## Main Features
 
-- **EcoViaje**: Explora diferentes vehículos eléctricos, híbridos o de combustión para realizar comparativas y planificar tus viajes.
-- **EcoEstudio**: Realiza un análisis completo de categorías, clasificación energética, autonomía, capacidad de la batería, consumo, emisiones y motorización de los vehículos.
-- **EcoEncuesta**: Pon a prueba tu nivel de conciencia ambiental con nuestra encuesta.
-- **EcoHistórico**: Observa la evolución del precio del combustible a lo largo del tiempo y predice su precio en las siguientes semanas.
-- **EcoEquipo**: Conoce al equipo detrás de EcoViaje y descubre sus perfiles profesionales.
-- **EcoFaqs**: Encuentra respuestas a preguntas frecuentes sobre nuestra página.
+- **EcoJourney**: Explore different electric, hybrid, or combustion vehicles to make comparisons and plan your trips.
+- **EcoStudy**: Perform a comprehensive analysis of categories, energy ratings, range, battery capacity, consumption, emissions, and engine types of the vehicles.
+- **EcoSurvey**: Test your environmental awareness with our survey.
+- **EcoHistory**: Observe the evolution of fuel prices over time and predict their prices in the coming weeks.
+- **EcoTeam**: Meet the team behind EcoJourney and discover their professional profiles.
+- **EcoFAQs**: Find answers to frequently asked questions about our website.
 
-## Cómo Contribuir
+## How to Contribute
 
-Si estás interesado en contribuir a nuestro proyecto, ¡te invitamos a que te unas a nuestra comunidad comprometida con un futuro más limpio y sostenible!
+If you’re interested in contributing to our project, we invite you to join our community committed to a cleaner and more sustainable future!
 
-- Reporta problemas o sugiere mejoras en el apartado de [Issues](https://github.com/Ateibuzena/Proyecto_EcoMovilidad/issues).
-- Envía solicitudes de extracción (pull requests) con tus contribuciones al código en [Pull Requests](https://github.com/Ateibuzena/Proyecto_EcoMovilidad/pulls).
+- Report issues or suggest improvements in the [Issues](https://github.com/Ateibuzena/Proyecto_EcoMovilidad/issues) section.
+- Submit pull requests with your code contributions in [Pull Requests](https://github.com/Ateibuzena/Proyecto_EcoMovilidad/pulls).
 
-## Contacto
+## Contact
 
-Para cualquier consulta o información adicional, no dudes en contactarnos a través de:
+For any inquiries or additional information, feel free to contact us through:
 
-- Correo electrónico: ena.ateibuz@gmail.com , danielvillarayo@gmail.com , mariagomezr96@gmail.com , kevinalexisespinoza@gmail.com ,  lorena.aljorra1994@gmail.com
-- GitHub: [Ana en GitHub](https://github.com/Ateibuzena), [Daniel en GitHub](https://github.com/Malosy26), [María en GitHub](https://github.com/mariagomez96-stack), [Kevin en GitHub](https://github.com/KevinAlexisEsp), [Lorena en GitHub](https://github.com/LorenaMtnez94)
-- LinkedIn: [Ana en LinkedIn](https://www.linkedin.com/in/ana-zubieta/), [Daniel en LinkedIn](https://www.linkedin.com/in/dvr0001/), [María en LinkedIn](https://www.linkedin.com/in/mariagomezroman/), [Kevin en LinkedIn](https://www.linkedin.com/in/kevin-alexis-espinoza/), [Lorena en LinkedIn](https://www.linkedin.com/in/lorenamtnez/)
+- Email: ena.ateibuz@gmail.com, danielvillarayo@gmail.com, mariagomezr96@gmail.com, kevinalexisespinoza@gmail.com, lorena.aljorra1994@gmail.com
+- GitHub: [Ana on GitHub](https://github.com/Ateibuzena), [Daniel on GitHub](https://github.com/Malosy26), [María on GitHub](https://github.com/mariagomez96-stack), [Kevin on GitHub](https://github.com/KevinAlexisEsp), [Lorena on GitHub](https://github.com/LorenaMtnez94)
+- LinkedIn: [Ana on LinkedIn](https://www.linkedin.com/in/ana-zubieta/), [Daniel on LinkedIn](https://www.linkedin.com/in/dvr0001/), [María on LinkedIn](https://www.linkedin.com/in/mariagomezroman/), [Kevin on LinkedIn](https://www.linkedin.com/in/kevin-alexis-espinoza/), [Lorena on LinkedIn](https://www.linkedin.com/in/lorenamtnez/)
 
-¡Gracias por ser parte de EcoViaje y contribuir a un futuro más sostenible para todos! 🌱🚗✨
+Thank you for being part of EcoJourney and contributing to a more sustainable future for everyone! 🌱🚗✨
