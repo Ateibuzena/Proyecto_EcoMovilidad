@@ -49,7 +49,7 @@ def paginaprincipal():
         st.markdown(texto, unsafe_allow_html=True)
         
     with col3:
-        st.image("https://www.vinccihoteles.com/blog/wp-content/uploads/2023/09/disposicion-articulos-viaje-angulo-alto.jpg", caption="", use_column_width=True)
+        st.image("https://www.vinccihoteles.com/media/uploads/cms_apps/imagenes/disposicion-articulos-viaje-angulo-alto.jpg?q=pr:sharp/rs:fill/w:900/h:500/g:ce/f:jpg", caption="", use_column_width=True)
     st.markdown(" ")
     st.markdown(" ")
         
