@@ -46,7 +46,7 @@ def main():
 
         #Seleccion del sidebar
         seleccion_pagina = st.sidebar.radio(label = " ", options = ["EcoInicio","EcoMovilidad", "EcoEquipo", "EcoFaqs", "EcoEncuesta"])
-
+    
         if seleccion_pagina == "EcoInicio":
             paginaprincipal()
         elif seleccion_pagina == "EcoMovilidad":
